@@ -1,1 +1,2 @@
-var nexus = angular.module('nexus', []);
+'use strict';
+var nexusApp = angular.module('nexusApp', ['ngRoute', 'nexusCtrl']);
