@@ -5,13 +5,21 @@ nexusApp.config(['$routeProvider',
 				templateUrl: 'dev/tpl/home.html',
 				controller: 'homeCtrl'
 			}).
-			when('/add', {
-				templateUrl: 'dev/tpl/add.html',
-				controller: 'addCtrl'
+			when('/site', {
+				templateUrl: 'dev/tpl/site.html',
+				controller: 'siteCtrl'
 			}).
-			when('/search', {
-				templateUrl: 'dev/tpl/search.html',
-				controller: 'searchCtrl'
+			when('/3dgraphic', {
+				templateUrl: 'dev/tpl/third.html',
+				controller: 'thirdCtrl'
+			}).
+			when('/application', {
+				templateUrl: 'dev/tpl/application.html',
+				controller: 'applicationCtrl'
+			}).
+			when('/about', {
+				templateUrl: 'dev/tpl/about.html',
+				controller: 'aboutCtrl'
 			}).
 			otherwise({
 				redirectTo: '/home'

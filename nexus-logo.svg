@@ -1,5 +1,7 @@
-<div class="logo">
-	<svg
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -5007,10 +5009,3 @@
     </g>
   </g>
 </svg>
-</div>
-<div class="flexible-menu">
-	<a href="#/site" class="item">Сайты</a>
-	<a href="#/3dgraphic" class="item">3D Графика</a>
-	<a href="#/application" class="item">Приложения</a>
-	<a href="#/about" class="item">Контакты</a>
-</div>
