@@ -22,5 +22,5 @@ nexusCtrl.controller('applicationCtrl', ['$location', '$scope',
 
 nexusCtrl.controller('aboutCtrl', ['$location', '$scope',
 	function($location, $scope) {
-//		$location.path(add);
+		$scope.labels = ['Ваше имя', 'Ваш E-mail', 'Ваш номер (необязательно)'];
 }]);

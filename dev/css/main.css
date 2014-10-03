@@ -50,8 +50,7 @@ g#layer1 {
 	width: 32px;
 	height: 32px;
 	margin-right: 10px;
-	fill: #2371d2;
-	
+	fill: #ff5722;
 }
 
 .line {
@@ -68,3 +67,6 @@ g#layer1 {
 	display: table;
 	clear: both;
 }
+
+
+

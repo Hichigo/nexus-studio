@@ -5,25 +5,38 @@
 	<title>Nexus-Studio</title>
 	<link rel="stylesheet" href="dev/css/main.css">
 	<link rel="stylesheet" href="dev/css/nav.css">
+	<link rel="stylesheet" href="dev/css/about.css">
+	<link rel="stylesheet" href="dev/directives/text-input/css/text-input.css">
+	<link rel="stylesheet" href="dev/directives/tabs/css/tabs.css">
 </head>
 <body>
 <svg id="svg-source" height="0" version="1.1" 
   xmlns="http://www.w3.org/2000/svg" style="position:absolute; margin-left: -100%" 
   xmlns:xlink="http://www.w3.org/1999/xlink">
-  <g id="message" data-iconmelon="Geomicons:70bda94673c2950a06d03c12b1e489a5">
-    <g>
-    	
+  <g id="mail" data-iconmelon="Geomicons:70bda94673c2950a06d03c12b1e489a5">
+    <g transform="matrix(2.2698255,0,0,2.2577706,-1089.1962,-1258.5567)">
+    	<path d="m486.91,566.54-1.746-1.53-4.986,4.273c0.181,0.172,0.423,0.275,0.694,0.275h12.072c0.269,0,0.511-0.103,0.692-0.275l-4.986-4.273-1.74,1.53z"></path>
+			<path d="m493.64,559.76c-0.176-0.172-0.423-0.275-0.692-0.275h-12.072c-0.266,0-0.513,0.103-0.694,0.275l6.732,5.769,6.726-5.769z"></path>
+			<path d="m479.86,560.37,0,8.365,4.868-4.137-4.868-4.228z"></path>
+			<path d="m489.09,564.6,4.868,4.137,0-8.37-4.868,4.233z"></path>
     </g>
   </g>
   <g id="tag" data-iconmelon="Geomicons:38e052014f273c179f702cea9fd4f101">
     <g>
-    	
+    	<path d="M26.053,10.995c0-6.0721-4.497-10.995-10.053-10.995s-10.053,4.9229-10.053,10.995c0,0.34023,0.010014,0.67423,0.041654,1.0062h-0.041654c0,6.043,10.053,19.999,10.053,19.999s10.053-13.995,10.053-19.999h-0.03965c0.02922-0.33193,0.03965-0.66593,0.03965-1.0062zm-10.053,3.008c-2.2191,0-4.0253-1.7966-4.0253-4.0039s1.8061-4.006,4.0253-4.006c2.2191,0,4.0273,1.7986,4.0273,4.006,0,2.2073-1.8082,4.0039-4.0273,4.0039z"></path>
     </g>
   </g>
-  <g id="signal" data-iconmelon="Dripicons:79154da97fa6cb8c6dc0d70a3599ebb6">
+  <g id="phone" data-iconmelon="Dripicons:79154da97fa6cb8c6dc0d70a3599ebb6">
     <g>
-      
+      <path d="M22.026,0,9.9736,0c-2.2189,0-4.0255,1.7875-4.0255,3.9852v24.02c0,2.2071,1.7851,3.9947,4.0255,3.9947h12.053c2.2189,0,4.0255-1.7875,4.0255-3.9947v-24.02c0-2.1975-1.788-3.985-4.026-3.985zm-10.053,2.0033,8.0534,0,0,2.0032-8.0534,0,0-2.0032zm6.0395,27.993-4.0255,0,0-2.0009,4.0255,0,0,2.0009zm6.0252-4.0042-16.078,0,0-19.997,16.078,0,0,19.997z"></path>
     </g>
+  </g>
+  <g id="menu">
+  	<g>
+  		<path d="M114,8H14C7.4,8,2,13.4,2,20s5.4,12,12,12h100c6.6,0,12-5.4,12-12S120.6,8,114,8z"></path>
+			<path d="M114,52H14C7.4,52,2,57.4,2,64s5.4,12,12,12h100c6.6,0,12-5.4,12-12S120.6,52,114,52z"></path>
+			<path d="M114,96H14c-6.6,0-12,5.4-12,12s5.4,12,12,12h100c6.6,0,12-5.4,12-12S120.6,96,114,96z"></path>
+  	</g>
   </g>
 </svg>
 	<div ng-view></div>
@@ -33,5 +46,8 @@
 	<script src="dev/js/app.js"></script>
 	<script src="dev/js/router.js"></script>
 	<script src="dev/js/controllers.js"></script>
+	<script src="dev/directives/text-input/js/text-input.js"></script>
+	<script src="dev/directives/tabs/js/my-tabs.js"></script>
+	<script src="dev/directives/tabs/js/my-pane.js"></script>
 </body>
 </html>

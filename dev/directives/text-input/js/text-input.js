@@ -1,7 +1,7 @@
-myApp.directive('myCustomer', function() {
+nexusApp.directive('myInput', function() {
   return {
 		restrict: 'E',
-    templateUrl: 'directives/text-input/tpl/text-input.html',
+    templateUrl: 'dev/directives/text-input/tpl/text-input.html',
 		replace: true,
 		link: function($scope, element, attrs) {
 			element.find('input').on('blur', function() {
