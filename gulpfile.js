@@ -6,10 +6,23 @@ var gulp = require('gulp'),
 		csscomb = require('gulp-csscomb'),
 		autoprefixer = require('gulp-autoprefixer');
 
-gulp.task('default', function() {
-  
+gulp.task('lessToCss', function() {
+  gulp.src('dev/less/*.less')
+    .pipe(less())
+    .pipe(gulp.dest('dev/css/'));
 });
 
+gulp.task('concat', function () {
+  gulp.src('dev/css/*.css')
+    .pipe(concatCss('style.css'))
+		.pipe(autoprefixer({
+			browsers: ['last 8 versions'],
+			cascade: false
+		}))
+		.pipe(csscomb())
+		.pipe(minifyCSS({keepBreaks:true}))
+    .pipe(gulp.dest('release/css/'));
+});
 
 
 //CONCAT----------------------------------------------------------------------
