@@ -46,6 +46,11 @@ g#layer1 {
 	transform: translate(-251px, -300px) scale(1);
 }
 
+.content-page {
+	width: 90%;
+	margin: 0 auto;
+}
+
 .icon {
 	width: 32px;
 	height: 32px;
@@ -67,6 +72,3 @@ g#layer1 {
 	display: table;
 	clear: both;
 }
-
-
-

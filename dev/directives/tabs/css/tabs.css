@@ -9,7 +9,7 @@
 	padding: 0;
 	display: flex;
 	flex-flow: row wrap;
-	justify-content: center;
+	justify-content:flex-start;
 	position: relative;
 }
 
@@ -43,33 +43,17 @@
 	transition: all .6s cubic-bezier(1,0,0,1.4);
 }
 
-.tab-pane {
-	perspective: 900px;
-}
-
-.tab-content3 {
-	width: 80%;
-	margin: 40px auto 0;
-	padding: 10px;
-	position: absolute;
-	left: 0;
-	right: 0;
-	opacity: 0;
-	box-shadow: 0 1px 3px 1px rgba(0,0,0,.2);
-	background: transparent;
-	user-select: none;
-	transform-style: preserve-3d;
-}
-
 .static-text {
 	min-width: 300px;
 	max-width: 300px;
+	margin-right: 20px;
+	float: left;
 }
 
-.desc-img {
+.desc-img, desc {
 	min-width: 200px;
 	max-width: 200px;
-	margin: 10px 20px 10px 10px;
+	margin: 0px 20px 10px 0px;
 }
 
 .tab-pane {
