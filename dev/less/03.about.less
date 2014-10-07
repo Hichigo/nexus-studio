@@ -1,3 +1,6 @@
+@blue: #2371d2;
+@orange: #ff5722;
+
 .flexible-content {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -22,14 +25,14 @@ textarea {
 }
 
 textarea:focus {
-	border-color: #2371d2;
+	border-color: @blue;
 }
 
 .send-btn {
 	width: 150px;
 	height: 40px;
 	margin: 10px 0;
-	background: #2371d2;
+	background: @blue;
 	color: #fff;
 	font-size: 14px;
 	text-transform: uppercase;
@@ -39,5 +42,5 @@ textarea:focus {
 }
 
 .send-btn:hover {
-	background: #ff5722;
+	background: @orange;
 }

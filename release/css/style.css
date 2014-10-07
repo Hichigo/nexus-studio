@@ -26,7 +26,7 @@ textarea:focus{border-color:#2371d2}
 .nav-tabs-btn{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:3px;padding:10px 15px;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-transition:background .4s;transition:background .4s;text-transform:uppercase;color:#fff;background:#2371d2}
 .nav-tabs-btn:last-child{margin-right:0}
 .nav-tabs-btn:hover{background:#f55}
-.bar{position:absolute;bottom:0;left:-100px;width:72px;height:4px;-webkit-transition:all .6s cubic-bezier(1,0,0,1.4);transition:all .6s cubic-bezier(1,0,0,1.4);background:#f90}
+.bar{position:absolute;bottom:0;left:-100px;width:72px;height:4px;-webkit-transition:all .6s cubic-bezier(1,0,0,1.4);transition:all .6s cubic-bezier(1,0,0,1.4);background:#ff5722}
 .static-text{float:left;min-width:300px;max-width:300px;margin-right:20px}
 .desc-img,desc{min-width:200px;max-width:200px;margin:0 20px 10px 0}
 .tab-pane{display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;margin:0 auto;padding:10px 15px;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap}

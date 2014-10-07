@@ -1,3 +1,6 @@
+@blue: #2371d2;
+@orange: #ff5722;
+
 .nav {
 	width: 100%;
 	height: 90px;
@@ -26,7 +29,7 @@
 }
 
 .menu > a {
-	color: #2371d2;
+	color: @blue;
 	text-decoration: none;
 	display: block;
 	padding: 0 20px;
@@ -36,11 +39,11 @@
 }
 
 .menu > a:hover {
-	color: #ff5722 !important;
-	border-bottom: 3px solid #ff5722;
+	color: @orange !important;
+	border-bottom: 3px solid @orange;
 }
 
 .active-btn {
-	color: #ff5722 !important;
+	color: @orange !important;
 	border-bottom: 3px solid;
 }

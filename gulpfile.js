@@ -4,7 +4,8 @@ var gulp = require('gulp'),
 		minifyCSS = require('gulp-minify-css'),
 		rename = require("gulp-rename"),
 		csscomb = require('gulp-csscomb'),
-		autoprefixer = require('gulp-autoprefixer');
+		autoprefixer = require('gulp-autoprefixer'),
+		notify = require("gulp-notify");
 
 gulp.task('lessToCss', function() {
   gulp.src('dev/less/*.less')
@@ -21,7 +22,13 @@ gulp.task('concat', function () {
 		}))
 		.pipe(csscomb())
 		.pipe(minifyCSS({keepBreaks:true}))
-    .pipe(gulp.dest('release/css/'));
+    .pipe(gulp.dest('release/css/'))
+		.pipe(notify("Complete!"));
+});
+
+gulp.task('default', function () {
+	gulp.watch('dev/less/*.less', ['lessToCss']);
+	gulp.watch('dev/css/*.css', ['concat']);
 });
 
 
