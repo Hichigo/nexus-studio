@@ -32,10 +32,9 @@ body {
 	background: @orange;
 	color: #fff;
 //	box-shadow: 0 2px 5px rgba(0,0,0,.4);
-}
-
-.item:hover {
-	background: @blue;
+	&:hover {
+		background: @blue;
+	}
 }
 
 .logo img {
@@ -63,10 +62,9 @@ body {
 
 .tr {
 	margin-bottom: 10px;
-}
-
-.tr:after {
-	content: '';
-	display: table;
-	clear: both;
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
 }

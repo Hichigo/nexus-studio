@@ -34,7 +34,7 @@
 }
 .menu > a:hover {
   color: #ff5722 !important;
-  border-bottom: 3px solid #ff5722;
+  border-bottom: 3px solid;
 }
 .active-btn {
   color: #ff5722 !important;

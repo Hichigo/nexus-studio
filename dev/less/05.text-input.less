@@ -36,16 +36,15 @@
   transition: all .4s;
   cursor: text;
   background: transparent;
-}
-
-.my-text-input:focus {
-  border-color: @blue;
-}
-
-.my-text-input:focus + .placeholder {
-  color: @blue;
-  top: 0;
-  font-size: 90%;
+	
+	&:focus {
+		border-color: @blue;
+		& +  .placeholder {
+			color: @blue;
+			top: 0;
+			font-size: 90%;
+		}
+	}
 }
 
 .placeholder-focus {

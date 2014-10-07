@@ -28,21 +28,20 @@
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: flex-end;
-}
-
-.menu > a {
-	color: @blue;
-	text-decoration: none;
-	display: block;
-	padding: 0 20px;
-	height: 100%;
-	line-height: 90px;
-	box-sizing: border-box;
-}
-
-.menu > a:hover {
-	color: @orange !important;
-	border-bottom: 3px solid @orange;
+	
+	& > a {
+		color: @blue;
+		text-decoration: none;
+		display: block;
+		padding: 0 20px;
+		height: 100%;
+		line-height: 90px;
+		box-sizing: border-box;
+		&:hover {
+			color: @orange !important;
+			border-bottom: 3px solid;
+		}
+	}
 }
 
 .active-btn {
