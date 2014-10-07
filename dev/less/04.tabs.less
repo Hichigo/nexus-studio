@@ -1,8 +1,8 @@
 @blue: #2371d2;
 @orange: #ff5722;
+@gray: #888;
 
 .tabbable {
-	width: 80%;
 	margin: 0 auto;
 }
 
@@ -21,10 +21,10 @@
 	background: @blue;
 	cursor: pointer;
 	color: #fff;
-	text-transform: uppercase;
+//	text-transform: uppercase;
 	transition: background .4s;
 	user-select: none;
-	margin: 3px;
+	margin: 1px;
 	box-sizing: border-box;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .nav-tabs-btn:hover {
-	background: #f55;
+	background: @orange;
 }
 
 .bar {
@@ -53,12 +53,6 @@
 	float: left;
 }
 
-.desc-img, desc {
-	min-width: 200px;
-	max-width: 200px;
-	margin: 0px 20px 10px 0px;
-}
-
 .tab-pane {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -66,8 +60,19 @@
 	display: -o-flex;
 	display: flex;
 	flex-flow: row nowrap;
+	justify-content: flex-start;
 	margin: 0 auto;
 	padding: 10px 15px;
+}
+
+.desc-img, desc {
+	min-width: 200px;
+	max-width: 200px;
+	margin: 0 20px 10px 0;
+}
+
+.desc > h4 {
+	margin-top: 0;
 }
 
 .active-tab {

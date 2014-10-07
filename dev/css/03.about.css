@@ -5,7 +5,7 @@
   display: -o-flex;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .content-item {
   margin: 10px;
@@ -14,7 +14,7 @@ textarea {
   display: block;
   width: 800px;
   border-radius: 0;
-  border-color: #888;
+  border-color: #888888;
   outline: none;
   resize: none;
 }

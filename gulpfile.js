@@ -21,14 +21,20 @@ gulp.task('concat', function () {
 			cascade: false
 		}))
 		.pipe(csscomb())
-		.pipe(minifyCSS({keepBreaks:true}))
     .pipe(gulp.dest('release/css/'))
+});
+
+gulp.task('minify', function () {
+	gulp.src('release/css/style.css')
+		.pipe(minifyCSS({keepBreaks:true}))
+		.pipe(gulp.dest('release/css/'))
 		.pipe(notify("Complete!"));
 });
 
 gulp.task('default', function () {
 	gulp.watch('dev/less/*.less', ['lessToCss']);
 	gulp.watch('dev/css/*.css', ['concat']);
+	gulp.watch('release/css/style.css', ['minify']);
 });
 
 
