@@ -7,7 +7,7 @@ nexusCtrl.controller('homeCtrl', ['$location', '$scope',
 
 nexusCtrl.controller('siteCtrl', ['$location', '$scope',
 	function($location, $scope) {
-//		$location.path(add);
+		
 }]);
 
 nexusCtrl.controller('thirdCtrl', ['$location', '$scope',

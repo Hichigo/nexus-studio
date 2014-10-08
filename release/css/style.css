@@ -32,7 +32,7 @@ textarea:focus{border-color:#2371d2}
 .nav-tabs-btn:hover{background:#ff5722}
 .bar{position:absolute;bottom:0;left:-100px;width:72px;height:4px;-webkit-transition:all .6s cubic-bezier(1,0,0,1.4);transition:all .6s cubic-bezier(1,0,0,1.4);background:#ff5722}
 .static-text{float:left;min-width:300px;max-width:300px;margin-right:20px}
-.tab-pane{display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;margin:0 auto;padding:10px 15px;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start}
+.tab-pane{display:-webkit-flex;display:-moz-flex;display:-ms-flex;display:-o-flex;display:-webkit-box;display:-ms-flexbox;display:flex;margin:0 auto;padding:10px 15px 10px 0;-webkit-flex-flow:row nowrap;-ms-flex-flow:row nowrap;flex-flow:row nowrap;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start}
 .desc-img,desc{min-width:200px;max-width:200px;margin:0 20px 10px 0}
 .desc>h4{margin-top:0}
 .active-tab{-webkit-transform-origin:50% 0;-ms-transform-origin:50% 0;transform-origin:50% 0;-webkit-animation-name:fadein;animation-name:fadein;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:cubic-bezier(.5,.2,0,1.3);animation-timing-function:cubic-bezier(.5,.2,0,1.3);opacity:1!important;-webkit-animation-fill-mode:both;animation-fill-mode:both}
