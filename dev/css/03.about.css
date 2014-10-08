@@ -36,3 +36,21 @@ textarea:focus {
 .send-btn:hover {
   background: #ff5722;
 }
+.social {
+  fill: #ff5722;
+}
+.twitter:hover {
+  fill: #00aced !important;
+}
+.facebook:hover {
+  fill: #3b5998 !important;
+}
+.google:hover {
+  fill: #dd4b39 !important;
+}
+.vk:hover {
+  fill: #45668e !important;
+}
+.youtube:hover {
+  fill: #bb0000 !important;
+}
