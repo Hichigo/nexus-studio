@@ -12,7 +12,7 @@
 }
 textarea {
   display: block;
-  width: 800px;
+  width: 395px;
   border-radius: 0;
   border-color: #888888;
   outline: none;
@@ -37,7 +37,7 @@ textarea:focus {
   background: #ff5722;
 }
 .social {
-  fill: #ff5722;
+  fill: #000;
 }
 .twitter:hover {
   fill: #00aced !important;

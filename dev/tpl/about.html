@@ -31,38 +31,10 @@
 					<div class="text line">E-mail: <a href="mailto:info@nexus-studio.ru">info@nexus-studio.ru</a></div>
 				</div>
 				<div class="tr">
-					<div class="icon line">
-						<a href="#">
-							<svg class="social twitter" viewbox="0 0 32 32">
-								<use xlink:href="#twitter">
-							</svg>
-						</a>
-					</div>
-					<div class="icon line">
-						<a href="https://www.facebook.com/nexus.studio.bel/timeline#">
-							<svg class="social facebook" viewbox="0 0 32 32">
-								<use xlink:href="#facebook">
-							</svg>
-						</a>
-					</div>
-					<div class="icon line">
-						<a href="https://plus.google.com/u/0/116298012878227766967/about">
-							<svg class="social google" viewbox="0 0 32 32">
-								<use xlink:href="#google">
-							</svg>
-						</a>
-					</div>
-					<div class="icon line">
-						<a href="http://vk.com/nexusstudioru">
-							<svg class="social vk" viewbox="0 0 32 32">
-								<use xlink:href="#vk">
-							</svg>
-						</a>
-					</div>
-					<div class="icon line">
-						<a href="http://www.youtube.com/channel/UCbWoURkJ5nXueJQjWpXEraA?guided_help_flow=3">
-							<svg class="social youtube" viewbox="0 0 32 32">
-								<use xlink:href="#youtube">
+					<div class="icon line" ng-repeat="soc in social">
+						<a href="{{ soc.url}}" target="_blank">
+							<svg class="social {{ soc.id }}" viewbox="0 0 32 32">
+								<use xlink:href="{{ soc.xlink }}">
 							</svg>
 						</a>
 					</div>
