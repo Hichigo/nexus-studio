@@ -52,6 +52,30 @@ textarea:focus {
 	background: @orange;
 }
 
+.icon {
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+	fill: @orange;
+}
+
+.line {
+	float: left;
+	line-height: 32px;
+}
+
+.tr {
+	margin-bottom: 10px;
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
+	&:last-child {
+		margin-top: 20px;
+	}
+}
+
 .social {
 	fill: #000;
 }

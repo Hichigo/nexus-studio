@@ -36,6 +36,27 @@ textarea:focus {
 .send-btn:hover {
   background: #ff5722;
 }
+.icon {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  fill: #ff5722;
+}
+.line {
+  float: left;
+  line-height: 32px;
+}
+.tr {
+  margin-bottom: 10px;
+}
+.tr:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.tr:last-child {
+  margin-top: 20px;
+}
 .social {
   fill: #000;
 }
