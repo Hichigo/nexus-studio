@@ -5,15 +5,18 @@
   display: -o-flex;
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 .content-item {
   margin: 10px;
 }
 textarea {
   display: block;
-  width: 395px;
+  width: 495px;
   border-radius: 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
   border-color: #888888;
   outline: none;
   resize: none;

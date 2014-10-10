@@ -10,6 +10,7 @@
   margin: 0 20px;
 }
 .menu {
+  position: relative;
   list-style: none;
   height: 100%;
   margin: 0;
@@ -30,9 +31,15 @@
 }
 .menu > a:hover {
   color: #ff5722 !important;
-  border-bottom: 3px solid;
 }
 .active-btn {
   color: #ff5722 !important;
-  border-bottom: 3px solid;
+}
+.bar-nav {
+  background: #ff5722;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  transition: all 0.6s cubic-bezier(1, 0, 0, 1.4);
 }

@@ -26,15 +26,6 @@
 .nav-tabs-btn:hover {
   background: #ff5722;
 }
-.bar {
-  width: 72px;
-  height: 4px;
-  background: #ff5722;
-  position: absolute;
-  bottom: 0;
-  left: -100px;
-  transition: all 0.6s cubic-bezier(1, 0, 0, 1.4);
-}
 .static-text {
   min-width: 300px;
   max-width: 300px;

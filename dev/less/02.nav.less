@@ -16,6 +16,7 @@
 }
 
 .menu {
+	position: relative;
 	list-style: none;
 	height: 100%;
 	margin: 0;
@@ -35,12 +36,19 @@
 		box-sizing: border-box;
 		&:hover {
 			color: @orange !important;
-			border-bottom: 3px solid;
 		}
 	}
 }
 
 .active-btn {
 	color: @orange !important;
-	border-bottom: 3px solid;
+}
+
+.bar-nav {
+	background: @orange;
+	height: 3px;
+	position: absolute;
+	bottom: 0;
+	left: 100%;
+	transition: all .6s cubic-bezier(1,0,0,1.4);
 }
