@@ -12,14 +12,11 @@ body {
 	width: 100%;
 	background: #09f;
 	height: 500px;
+	margin-top: 90px;
 }
 
 .flexible-menu {
 	margin: 0 auto;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
 	display: flex;
 	justify-content: center;
 	
@@ -37,7 +34,7 @@ body {
 	margin: 10px;
 	background: @orange;
 	color: #fff;
-//	box-shadow: 0 2px 5px rgba(0,0,0,.4);
+
 	&:hover {
 		background: @blue;
 	}
@@ -52,6 +49,10 @@ body {
 	}
 }
 
+.logo {
+	margin-top: -275px;
+}
+
 .logo img {
 	display: block;
 	margin: 50px auto;
@@ -60,5 +61,12 @@ body {
 .content-page {
 	min-width: 900px;
 	max-width: 1100px;
-	margin: 0 auto;
+	margin: 110px auto 0;
+	z-index: 1;
+	
+	&:after {
+		content: '';
+		display: table;
+		clear: both;
+	}
 }

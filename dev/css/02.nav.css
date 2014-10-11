@@ -3,11 +3,19 @@
   height: 90px;
   background: #eee;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  z-index: 99;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.nav-wrap {
+  min-width: 900px;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 .logo-mini {
   float: left;
   height: 90px;
-  margin: 0 20px;
 }
 .menu {
   position: relative;
@@ -40,6 +48,6 @@
   height: 3px;
   position: absolute;
   bottom: 0;
-  left: 100%;
+  left: 200%;
   transition: all 0.6s cubic-bezier(1, 0, 0, 1.4);
 }
