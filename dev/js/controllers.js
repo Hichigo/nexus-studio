@@ -3,24 +3,18 @@ var nexusCtrl = angular.module('nexusCtrl', []);
 nexusCtrl.controller('homeCtrl', ['$location', '$scope',
 	function($location, $scope) {
 		
-}]);
-
-nexusCtrl.controller('siteCtrl', ['$location', '$scope',
+}])
+.controller('siteCtrl', ['$location', '$scope',
 	function($location, $scope) {
 		
-}]);
-
-nexusCtrl.controller('thirdCtrl', ['$location', '$scope',
+}]).controller('thirdCtrl', ['$location', '$scope',
 	function($location, $scope) {
-//		$location.path(add);
-}]);
-
-nexusCtrl.controller('applicationCtrl', ['$location', '$scope',
+		
+}]).controller('applicationCtrl', ['$location', '$scope',
 	function($location, $scope) {
-//		$location.path(add);
-}]);
-
-nexusCtrl.controller('aboutCtrl', ['$location', '$scope',
+		
+}])
+.controller('aboutCtrl', ['$location', '$scope',
 	function($location, $scope) {
 		$scope.labels = ['Ваше имя', 'Ваш E-mail', 'Ваш номер (необязательно)'];
 		$scope.social = [

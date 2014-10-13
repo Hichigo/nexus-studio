@@ -46,7 +46,6 @@ nexusApp.directive('topNav', ['$location', function($location) {
 				}
 			},1000);
 			
-			console.log(url);
 			$el.find('.menu').on('click', 'a', function() {
 				link.removeClass('active-btn');
 				$(this).addClass('active-btn');

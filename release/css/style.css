@@ -2,11 +2,13 @@
 body{font-family:sans-serif;margin:0;padding:0}
 .video-line{width:100%;height:500px;margin-top:90px;background:#09f}
 .flexible-menu{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin:0 auto;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}
-.item{font-family:sans-serif;font-size:18px;line-height:150px;width:150px;height:150px;margin:10px;text-align:center;text-decoration:none;text-transform:uppercase;color:#fff;background:#ff5722}
+.item{font-family:sans-serif;font-size:18px;line-height:150px;position:relative;width:150px;height:150px;margin:10px;text-align:center;text-decoration:none;text-transform:uppercase;color:#fff;-webkit-border-radius:5px;border-radius:5px;background:#ff5722}
 .item:hover{background:#2371d2}
 .item:nth-of-type(2){-webkit-animation-delay:.3s;animation-delay:.3s}
 .item:nth-of-type(3){-webkit-animation-delay:.6s;animation-delay:.6s}
 .item:nth-of-type(4){-webkit-animation-delay:.9s;animation-delay:.9s}
+.item span{position:absolute;right:0;bottom:0;left:0;height:96px;margin-right:auto;margin-left:auto}
+.sites-btn-img{width:80px;height:80px;margin:20px auto 0;fill:#fff}
 .logo{margin-top:-275px}
 .logo img{display:block;margin:50px auto}
 .content-page{z-index:1;min-width:900px;max-width:1100px;margin:110px auto 0}
@@ -554,3 +556,13 @@ Copyright (c) 2014 Daniel Eden
 @keyframes slideOutUp{0%{-webkit-transform:translateY(0);transform:translateY(0)}
 100%{visibility:hidden;-webkit-transform:translateY(-100%);transform:translateY(-100%)}}
 .slideOutUp{-webkit-animation-name:slideOutUp;animation-name:slideOutUp}
+.my-footer{width:100%;min-height:90px;padding-bottom:40px;background:#eee;-webkit-box-shadow:0 -1px 4px rgba(0,0,0,.3);box-shadow:0 -1px 4px rgba(0,0,0,.3)}
+.footer-wrap{min-width:900px;max-width:1100px;margin:0 auto}
+.footer-wrap:after{display:table;clear:both;content:''}
+.footer-soc{float:right}
+.footer-soc>.tr>.icon .social{margin-right:5px;padding:5px;-webkit-transition:all .4s;transition:all .4s;color:#000;border:1px solid}
+.footer-soc>.tr>.icon .twitter:hover{color:#00aced}
+.footer-soc>.tr>.icon .facebook:hover{color:#3b5998}
+.footer-soc>.tr>.icon .google:hover{color:#dd4b39}
+.footer-soc>.tr>.icon .vk:hover{color:#45668e}
+.footer-soc>.tr>.icon .youtube:hover{color:#b00}

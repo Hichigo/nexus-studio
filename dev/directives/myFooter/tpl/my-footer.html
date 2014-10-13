@@ -1,0 +1,16 @@
+<footer class="my-footer">
+	<div class="footer-wrap">
+		<div class="footer-soc">
+			<div class="tr">
+				<h4>Мы в соц. сетях:</h4>
+				<div class="icon line" ng-repeat="soc in social">
+					<a href="{{ soc.url}}" target="_blank">
+						<svg class="social {{ soc.id }}" viewbox="0 0 32 32">
+							<use xlink:href="{{ soc.xlink }}">
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>

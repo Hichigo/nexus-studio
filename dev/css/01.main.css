@@ -15,6 +15,7 @@ body {
   justify-content: center;
 }
 .item {
+  position: relative;
   width: 150px;
   height: 150px;
   line-height: 150px;
@@ -26,6 +27,7 @@ body {
   margin: 10px;
   background: #ff5722;
   color: #fff;
+  border-radius: 5px;
 }
 .item:hover {
   background: #2371d2;
@@ -38,6 +40,21 @@ body {
 }
 .item:nth-of-type(4) {
   animation-delay: .9s;
+}
+.item span {
+  position: absolute;
+  height: 96px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sites-btn-img {
+  width: 80px;
+  height: 80px;
+  margin: 20px auto 0;
+  fill: #fff;
 }
 .logo {
   margin-top: -275px;
